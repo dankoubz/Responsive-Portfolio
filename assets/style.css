@@ -214,9 +214,6 @@ form button:hover {
 /* Media Queries */
 
 @media only screen and (max-width: 980px) {
-    h1 {
-        background-color: orange;
-    }
     section {
         width: 700px;
     }
@@ -226,9 +223,6 @@ form button:hover {
 }
 
 @media only screen and (max-width: 768px) {
-    h1 {
-        background-color: pink;
-    }
     section {
         width: 550px;
         height: 700px;
@@ -249,9 +243,6 @@ form button:hover {
 }
 
 @media only screen and (max-width: 640px) {
-    h1 {
-        background-color: lightblue;
-    }
     section {
         margin-top: 100px;
         width: 420px;
