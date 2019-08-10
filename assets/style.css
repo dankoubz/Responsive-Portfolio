@@ -236,6 +236,16 @@ form button:hover {
     nav div.nav-contain {
         width: 620px;
     }
+    div.over-text1,
+    div.over-text2 {
+        left: 0;
+    }
+    div.img-contain {
+        margin-bottom: 25px;
+    }
+    main img {
+        margin-right: 5px;
+    }
 }
 
 @media only screen and (max-width: 640px) {
@@ -258,5 +268,23 @@ form button:hover {
     div.links li {
         display: inline;
         padding-right: 15px;
+    }
+    div.over-text1,
+    div.over-text2 {
+        left: 0;
+        width: 155px;
+    }
+    div.img-contain {
+        margin-bottom: 25px;
+    }
+    main img {
+        margin-right: 5px;
+        width: 155px;
+    }
+    h2 {
+        font-size: .5em;
+    }
+    main h2 {
+        width: 155px;
     }
 }
